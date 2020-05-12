@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+ height: 65px;
+ width: 100%;
+ position: fixed;
+ z-index: 10;
+ top: 0;
+ background-color: rgba(240, 238, 238, 0.966);
+}
+
+.logo {
+  float: left;
+}
+
+.menu-icon {
+  display: none;
+  float: right;
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.header-right {
+  float: right;
+}
+
+.hd-btn {
+  padding-left: 60px;
+  color: rgb(70, 70, 70);
+  line-height: 75px;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Gotham', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-wrapper {
+  background-image: url(/Users/kumiko/Documents/Dinow/webpage/material/analysis2.jpg);
+  background-size: cover;
+  padding: 300px 0px 100px 0px;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+}
+
+.top-wrapper p {
+  font-size: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'Gotham', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.top {
+  color: rgba(255, 255, 255, 0.815);
+  margin-top: 40px;
+}
+
+.service-wrapper {
+  padding-bottom: 80px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: ;
+  font-family: 'Gotham', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.service {
+  float: left;
+  width: 33%;
+  margin-top: 60px;
+}
+
+
+.txt-contents {
+  font-size: 13px;
+  display: inline-block;
+  margin: 20px;
+  color: #5f5d60;
+}
+
+.purpose-wrapper {
+  background-image: url(/Users/kumiko/Documents/Dinow/webpage/material/molecule_3.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.purpose-wrapper p {
+  font-size: 15px;
+  width: 60%;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: rgb(68, 67, 67);
+  color: rgb(207, 204, 204);
+  font-size: 14px;
+  font-family: 'Gotham', Tahoma, Geneva, Verdana, sans-serif;
+}
